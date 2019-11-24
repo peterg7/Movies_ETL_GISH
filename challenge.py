@@ -1,3 +1,23 @@
+'''
+challenge.py
+Module 8 Challenge
+Created By: Peter Gish
+Last Modified: 11/24/19
+
+*See README.md for full description*
+
+Assumptions:
+When automating the pipeline, there were some assumptions of the data that
+needed to be made.
+1) no movie will have a number of episodes
+2) the lower end of price ranges is what's relevant
+3) mostly null columns are worth dropping
+4) WARNING: merges complete as expected
+5) only want non-adult films in the dataset
+
+'''
+
+
 # import dependencies
 import json
 import pandas as pd
